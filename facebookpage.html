@@ -1,0 +1,132 @@
+<html>
+<head><title>MyPage</title>
+
+<!--<script src="js/jquery-3.2.1.js"></script>
+<script src="js/scriptfb.js"></script>-->
+<style>
+#header{
+	width:100%;
+	height: 90px;
+	background-color: #3b5998;
+	margin-top: -10px;
+}
+#fb_image{
+
+	margin-top: 20px;
+	margin-left: 100px;
+
+	}
+#login{
+	margin-left: 830px;
+	margin-top: -55px;
+
+}
+#bodyleft{
+	margin-top:40px;
+	width: 55%;
+	height: 500px;
+}
+#fb_connect{
+	margin-top: 15px;
+	margin-left: 100px;
+
+}
+#para{
+	margin-left: 115px;
+	margin-top: 30px;
+	color:#084972;
+}
+#bodyright{
+	margin-top:-520px;
+	margin-left: 800px;
+	width: 40%;
+	height:260px;
+}
+.fb_login
+{
+	/*border: 1px line;
+  border-radius: 6px;*/
+  width: 98.8%;
+  height: 14%;
+}
+#fb_login
+{
+	/*border: 1px line;
+  border-radius: 6px;*/
+  width: 49%;
+  height: 14%;
+}
+#why{
+	margin-top:-30px;
+	margin-left:190px;
+
+
+}
+</style>
+
+</head>
+
+<body bgcolor="#eff1f2">
+<div id="header">
+<img src="images\logo.png" id="fb_image">
+<div id="login">
+	<label style="color:white"><b>Email or Phone</b></label>
+	<label style="color:white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password</b></label>
+	<br/>
+	<input type="text" size="20" id="txt_email">&nbsp;&nbsp;
+	<input type="text" size="20" id="txt_password">
+</div>
+<div id="bodyleft">
+	<p id="para"><font face="verdana"><b>Facebook helps you connect and share with the <br/>people in your life.</font></b></p>
+<img src="images\connect.png" id="fb_connect">
+</div>
+<div id="bodyright">
+	<h1><b>Create an account</b></h1>
+	<p> it's free and always will be</p>
+	<form name="fb_login" action="" method="get">
+		<input type="text" placeholder="First Name" id="fb_login">
+		<input type="text" placeholder="Last Name" id="fb_login"><br/><br />
+		<input type="text" placeholder="Email or mobile number" class="fb_login" ><br/><br/>
+		<input type="text" placeholder="Re-enter email or mobile number" class="fb_login"><br/><br/>
+		<input type="text" placeholder="New password" class="fb_login">
+		<p><font color="#084972"><b>Birthday</font></b></p>
+		<select style="width:60px;">
+  		<option selected><b>Day</b></option>
+  		<option value="01">01</option>
+  		<option value="02">02</option>
+  		<option value="03">03</option>
+  		<option value="04">04</option>
+  		<option value="05">05</option>
+  		<option value="06">06</option>
+  		<option value="07">07</option>
+		</select>
+		<select style="width:60px;">
+  		<option selected><b>Month</b></option>
+  		<option value="01">01</option>
+  		<option value="02">02</option>
+  		<option value="03">03</option>
+  		<option value="04">04</option>
+  		<option value="05">05</option>
+  		<option value="06">06</option>
+  		<option value="07">07</option>
+		</select>
+		<select style="width:50px;">
+  		<option selected><b>Year</b></option>
+  		<option value="01">1990</option>
+  		<option value="02">1992</option>
+  		<option value="03">1993</option>
+  		<option value="04">1994</option>
+  		<option value="05">1995</option>
+  		<option value="06">1996</option>
+  		<option value="07">1997</option>
+		</select>
+		<div id="why"><font size="2">why do i need to provide my<br/> date of birth</font></div><br/>
+		 <input type="radio" name="gender" value="male" checked> Female
+  		 <input type="radio" name="gender" value="female"> male<br/><br />
+  		 <font size="2">clicking Create an account, you agree to our Terms and that you have read our Data Policy including our cookie Use</font>
+  		 <div id="create_account"><br>
+  		 	<img src="images\create.png" width="200px;">
+	</form>
+	<hr><font size="2">Create a Page for a celebrity, band or business</font>
+</body>
+</html>
